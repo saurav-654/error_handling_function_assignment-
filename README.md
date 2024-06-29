@@ -1,6 +1,6 @@
 # error_handling_function_assignment-
 
----
+
 
 
 
@@ -17,7 +17,7 @@ The `ErrorHandling` contract is a basic Solidity contract designed to demonstrat
 
 ## Functions
 
-### 1. `deposit`
+### 1. deposit
 
 ```solidity
 function deposit(uint _amount) public
@@ -26,7 +26,7 @@ function deposit(uint _amount) public
 - **Purpose**: Adds the specified amount to the sender’s balance.
 
 
-### 2. `withdrawRequire`
+### 2. withdrawRequire
 
 ```solidity
 function withdrawRequire(uint _amount) public
@@ -35,7 +35,7 @@ function withdrawRequire(uint _amount) public
 - **Purpose**: Withdraws the specified amount using the `require` statement.
 
 
-### 3. `withdrawAssert`
+### 3. withdrawAssert
 
 ```solidity
 function withdrawAssert(uint _amount) public
@@ -44,7 +44,7 @@ function withdrawAssert(uint _amount) public
 - **Purpose**: Withdraws the specified amount using the `assert` statement.
 
 
-### 4. `withdrawRevert`
+### 4. withdrawRevert
 
 ```solidity
 function withdrawRevert(uint _amount) public
@@ -55,10 +55,7 @@ function withdrawRevert(uint _amount) public
 
 
 
-### Deploying the Contract
 
-1. Deploy the contract using your preferred method (Remix, Truffle, Hardhat, etc.).
-2. Once deployed, you can interact with the contract through the following functions.
 
 
 
