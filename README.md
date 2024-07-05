@@ -71,7 +71,7 @@ function winningProposal() public view returns (uint256)
    - Specify an array of proposal names.
    - Set the voting duration in minutes.
    ```solidity
-   string[] memory proposalNames = ["Proposal 1", "Proposal 2", "Proposal 3"];
+   string[] memory proposalNames = ["Alpha", "Beta", "Gama"];
    uint256 durationInMinutes = 30;
    SimpleVoting voting = new SimpleVoting(proposalNames, durationInMinutes);
    ```
