@@ -14,7 +14,7 @@ The `SimpleVoting` contract is a smart contract that allows participants to vote
 
 ## Contract Structure
 
-### `Proposal` Struct
+### Proposal Struct
 
 ```solidity
 struct Proposal {
@@ -42,7 +42,7 @@ constructor(string[] memory proposalNames, uint256 durationInMinutes)
 - Sets the `votingEnd` timestamp based on the current block time and the specified duration in minutes.
 - Initializes the proposals with the given names and sets their initial vote count to zero.
 
-### `vote` Function
+### vote Function
 
 ```solidity
 function vote(uint256 proposalId) public
@@ -54,7 +54,7 @@ function vote(uint256 proposalId) public
 - Validates the proposal ID.
 - Increments the vote count for the specified proposal and marks the address as having voted.
 
-### `winningProposal` Function
+### winningProposal Function
 
 ```solidity
 function winningProposal() public view returns (uint256)
