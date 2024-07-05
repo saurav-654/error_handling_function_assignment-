@@ -1,4 +1,5 @@
-### SimpleVoting Contract - README
+### SimpleVoting Contract 
+---
 
 ## Overview
 
